@@ -1,0 +1,2 @@
+trial failed/timeout/interrupted; all created children reaped
+run=1 round=1 nice=10 competition=1 elapsed=0.000000 cpu=0.000000 FAIL

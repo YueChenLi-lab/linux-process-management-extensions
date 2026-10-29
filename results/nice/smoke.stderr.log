@@ -1,0 +1,5 @@
+run=1 round=1 nice=10 competition=1 elapsed=0.081013 cpu=0.009027 PASS
+run=2 round=1 nice=0 competition=1 elapsed=0.012502 cpu=0.008511 PASS
+run=3 round=1 nice=0 competition=0 elapsed=0.008797 cpu=0.008799 PASS
+run=4 round=1 nice=10 competition=0 elapsed=0.008725 cpu=0.008717 PASS
+COMPLETE: 4 trials; 1 rounds per condition; cpu=0; seed=20261029

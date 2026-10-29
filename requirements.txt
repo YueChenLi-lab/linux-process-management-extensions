@@ -1,0 +1,2 @@
+# Plotting only; C builds/tests have no Python dependency.
+matplotlib>=3.6,<4

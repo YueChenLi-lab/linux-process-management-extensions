@@ -1,0 +1,3 @@
+command: nice_benchmark --rounds 1 --iterations 10000000000 --seed 20261029 --timeout 1 --output results/nice/timeout_validation.csv
+exit_code: 1 (expected 1)
+Expected timeout cleanup returned nonzero.

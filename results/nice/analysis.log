@@ -1,0 +1,5 @@
+nice= 0 competition=0 n=10 elapsed mean=0.185523 median=0.185197 SD=0.007964 CPU mean=0.185499
+nice=10 competition=0 n=10 elapsed mean=0.185739 median=0.187737 SD=0.011107 CPU mean=0.185712
+nice= 0 competition=1 n=10 elapsed mean=0.376089 median=0.376986 SD=0.023521 CPU mean=0.188780
+nice=10 competition=1 n=10 elapsed mean=1.877433 median=1.871111 SD=0.089398 CPU mean=0.184536
+VALIDATION PASS: 40 trials, 10 complete rounds per condition

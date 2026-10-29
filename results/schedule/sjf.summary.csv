@@ -1,0 +1,2 @@
+algorithm,quantum,mean_waiting,mean_turnaround,mean_response,context_switches
+sjf,2,2.333333333,5.666666667,2.333333333,2

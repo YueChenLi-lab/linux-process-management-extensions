@@ -1,0 +1,4 @@
+# Generated Matplotlib SVG paths may contain insignificant trailing spaces.
+*.svg -whitespace
+# Python csv module uses standard CRLF record separators.
+*.csv whitespace=cr-at-eol

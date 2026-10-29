@@ -1,0 +1,2 @@
+algorithm,quantum,mean_waiting,mean_turnaround,mean_response,context_switches
+rr,2,4.333333333,7.666666667,2.000000000,5

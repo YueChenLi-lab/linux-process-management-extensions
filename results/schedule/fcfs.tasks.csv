@@ -1,0 +1,4 @@
+id,arrival,burst,first_start,completion,waiting,turnaround,response
+A,0,5,0,5,0,5,0
+B,0,2,5,7,5,7,5
+C,0,3,7,10,7,10,7

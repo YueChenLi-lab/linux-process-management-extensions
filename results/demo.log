@@ -1,0 +1,10 @@
+bash scripts/run_examples.sh
+fcfs waiting=4.000000000 turnaround=7.333333333 response=4.000000000 switches=2
+fcfs waiting=3.500000000 turnaround=6.500000000 response=3.500000000 switches=2
+sjf waiting=2.333333333 turnaround=5.666666667 response=2.333333333 switches=2
+sjf waiting=3.500000000 turnaround=6.500000000 response=3.500000000 switches=2
+rr waiting=4.333333333 turnaround=7.666666667 response=2.000000000 switches=5
+rr waiting=2.000000000 turnaround=5.000000000 response=1.000000000 switches=3
+Schedule plots and combined comparison.csv generated from C output
+Schedule plots and combined comparison.csv generated from C output
+PCB plot generated from 17 recorded events

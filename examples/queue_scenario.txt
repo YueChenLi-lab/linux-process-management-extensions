@@ -1,0 +1,18 @@
+# Each line is an event; empty queue operations are explicit NOOP.
+wake
+block
+create A 3
+create B 2
+create C 4
+step
+block
+block
+wake
+step
+wake
+finish
+step
+step
+finish
+wake
+block

@@ -1,0 +1,48 @@
+Captured UTC: 2026-10-29T03:12:43Z
+
+Kernel (hostname omitted):
+Linux 6.18.55 x86_64
+
+Distribution:
+PRETTY_NAME="Ubuntu 24.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.3 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+Compiler:
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+
+Python:
+Python 3.12.14
+
+CPU and affinity:
+model name	: AMD EPYC 9V74 80-Core Processor
+Cpus_allowed_list:	0-8
+Mems_allowed_list:	0
+
+CPU quota (cgroup v2 if available):
+800000 100000
+
+Autogroup setting (if exposed):
+NOT_AVAILABLE
+
+Build command:
+gcc -Iinclude -std=c11 -O2 -Wall -Wextra -Werror src/{module}.c -o build/{module}
+
+Source/executable fingerprints:
+1d89a02d752df2ea9374aa2fd5c7d9d45668c6cf1ec7c02fa88242d4bb448c74  src/nice_benchmark.c
+86357cad268bba0ac91a2728acb7ce4e91f7b4fc0a09cbbfb5fafd8e4085dc2d  src/pcb_queues.c
+d817997498b6ce06db56bec68f12243684183e20645d2bb2c032364db9a15970  src/scheduler.c
+3f1fea5f3ad5a6387e9d69266ae95317c22246b1c62e9b0cf7d809a3967678c6  include/parse.h
+b242841141c4cae18bc348d766c1862192c57975a6ecaa1f64b4628bfaa70a1a  build/pcb_queues
+7086ee95f4bc50e8dab5d9185f99780368800489e1366254293fdf60db6eda9f  build/scheduler
+7bed13005df43cf40ee8a0b53bdeb281415becec0798b188b4fe0503024e004c  build/nice_benchmark

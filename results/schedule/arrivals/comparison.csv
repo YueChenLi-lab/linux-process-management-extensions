@@ -1,0 +1,4 @@
+algorithm,quantum,mean_waiting,mean_turnaround,mean_response,context_switches
+fcfs,2,3.500000000,6.500000000,3.500000000,2
+sjf,2,3.500000000,6.500000000,3.500000000,2
+rr,2,2.000000000,5.000000000,1.000000000,3

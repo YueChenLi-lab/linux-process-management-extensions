@@ -1,0 +1,11 @@
+rm -rf build
+mkdir -p build
+gcc -Iinclude -std=c11 -O2 -Wall -Wextra -Werror src/pcb_queues.c -o build/pcb_queues
+gcc -Iinclude -std=c11 -O2 -Wall -Wextra -Werror src/scheduler.c -o build/scheduler
+gcc -Iinclude -std=c11 -O2 -Wall -Wextra -Werror src/nice_benchmark.c -o build/nice_benchmark
+./build/pcb_queues --test
+PCB PASS: 3550381 assertions; 10 seeds x 5000 reference-model operations; 7 corruption checks
+./build/scheduler --test
+Scheduler PASS: 124 assertions; exact theoretical timelines + arrival/idle/tie/q boundaries
+bash tests/cli_tests.sh
+CLI PASS: 33 checks (invalid inputs + deterministic demo + help); no timed benchmark in CI
